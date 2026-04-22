@@ -29,47 +29,18 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Senior React Developer</h4>
+                <h5>Avalore</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>Dec 18 - Nov 22</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+             • Led the development and continuous improvement of scalable React applications, significantly enhancing the user interface and overall user satisfaction by introducing dynamic, responsive components tailored to evolving business requirements.
+• Partnered effectively with UI/UX designers, backend engineers, and product owners in an Agile environment to ensure seamless integration of front-end elements with RESTful APIs and alignment with project deadlines and quality standards.
+• Spearheaded performance tuning initiatives including code splitting, lazy loading, and memoization, which decreased application load times by 25%, improved rendering efficiency, and established a library of reusable components that accelerated development cycles for future projects
             </p>
           </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
-              </div>
-              <h3>2016–17</h3>
-            </div>
-            <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
-              </div>
-              <h3>2013-16</h3>
-            </div>
-            <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
-            </p>
-          </div>
+          
         </div>
       </div>
     </div>
