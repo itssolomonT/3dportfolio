@@ -15,14 +15,15 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Full-Stack Engineer</h4>
+                <h5>Savas Labs</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>Dec 22 - Feb 26</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              • Spearheaded the development and maintenance of scalable web and mobile applications leveraging React, React Native, and Node.js, resulting in enhanced user engagement and robust application performance across multiple platforms.
+• Designed and implemented comprehensive RESTful APIs and backend services that seamlessly integrated with third-party services, authentication systems, and payment gateways, ensuring efficient data flow and extended application capabilities.
+• Led collaboration with UI/UX designers, product managers, and stakeholders to align technical implementation with strategic business goals, conducted thorough code reviews, and applied performance optimizations and best practices that increased application reliability and maintainability
             </p>
           </div>
           <div className="career-info-box">
