@@ -123,8 +123,8 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
+              <h3>App Development</h3>
+              <h4>Shipping live in your Production</h4>
               <p>
                 I build the systems behind it: APIs, data, voice/real-time, and
                 full-stack products—production-ready, not slide decks.
@@ -133,6 +133,9 @@ const WhatIDo = () => {
               <div className="what-content-flex">
                 <div className="what-tags">Node.js</div>
                 <div className="what-tags">Python</div>
+                 <div className="what-tags">WordPress</div>
+                 <div className="what-tags">Drupal</div>
+                 <div className="what-tags">Wix</div>
                 <div className="what-tags">REST &amp; real-time APIs</div>
                 <div className="what-tags">PostgreSQL</div>
                 <div className="what-tags">MongoDB</div>
