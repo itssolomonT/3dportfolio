@@ -11,22 +11,19 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="https://www.linkedin.com/in/akashrmalhotra/"
+                href="https://github.com/itssolomonT"
                 target="_blank"
                 rel="noreferrer"
                 data-cursor="disable"
               >
-                LinkedIn — akashrmalhotra
+                GitHub — Sulman Tufail
               </a>
             </p>
             <h4>Education</h4>
             <p>
-              PGPWE (MBA), Indian Institute of Management, Lucknow — 2021–2023
+             Bachelors in Computer Sciences | Cornell University | August 2018
             </p>
-            <p>
-              B.Tech Computer Science, Manav Rachna Educational Institutions —
-              2009–2013
-            </p>
+         
           </div>
           <div className="contact-box">
             <h4>Social</h4>
