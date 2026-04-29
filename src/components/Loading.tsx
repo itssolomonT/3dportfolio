@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./styles/Loading.css";
 import { useLoading } from "../context/LoadingProvider";
-
 import Marquee from "react-fast-marquee";
 
 const Loading = ({ percent }: { percent: number }) => {
@@ -10,28 +9,52 @@ const Loading = ({ percent }: { percent: number }) => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [clicked, setClicked] = useState(false);
 
-  if (percent >= 100) {
-    setTimeout(() => {
+  useEffect(() => {
+    if (percent < 100 || loaded) return;
+    const loadedTimer = window.setTimeout(() => {
       setLoaded(true);
-      setTimeout(() => {
+      const isLoadedTimer = window.setTimeout(() => {
         setIsLoaded(true);
       }, 1000);
+      return () => window.clearTimeout(isLoadedTimer);
     }, 600);
-  }
+
+    return () => {
+      window.clearTimeout(loadedTimer);
+    };
+  }, [percent, loaded]);
 
   useEffect(() => {
-    import("./utils/initialFX").then((module) => {
-      if (isLoaded) {
-        setClicked(true);
-        setTimeout(() => {
-          if (module.initialFX) {
-            module.initialFX();
-          }
+    const fallback = window.setTimeout(() => {
+      document.body.style.overflowY = "auto";
+      setIsLoading(false);
+    }, 4500);
+
+    return () => {
+      window.clearTimeout(fallback);
+    };
+  }, [setIsLoading]);
+
+  useEffect(() => {
+    import("./utils/initialFX")
+      .then((module) => {
+        if (isLoaded) {
+          setClicked(true);
+          setTimeout(() => {
+            if (module.initialFX) {
+              module.initialFX();
+            }
+            setIsLoading(false);
+          }, 900);
+        }
+      })
+      .catch(() => {
+        if (isLoaded) {
+          document.body.style.overflowY = "auto";
           setIsLoading(false);
-        }, 900);
-      }
-    });
-  }, [isLoaded]);
+        }
+      });
+  }, [isLoaded, setIsLoading]);
 
   function handleMouseMove(e: React.MouseEvent<HTMLElement>) {
     const { currentTarget: target } = e;
@@ -46,7 +69,7 @@ const Loading = ({ percent }: { percent: number }) => {
     <>
       <div className="loading-header">
         <a href="/#" className="loader-title" data-cursor="disable">
-          AM
+          ST
         </a>
         <div className={`loaderGame ${clicked && "loader-out"}`}>
           <div className="loaderGame-container">
@@ -62,8 +85,8 @@ const Loading = ({ percent }: { percent: number }) => {
       <div className="loading-screen">
         <div className="loading-marquee">
           <Marquee>
-            <span> Full Stack Developer</span> <span>Software Engineer</span>
-            <span> Full Stack Developer</span> <span>Software Engineer</span>
+            <span> Full Stack Engineer</span> <span>React Developer</span>
+            <span> Full Stack Engineer</span> <span>React Developer</span>
           </Marquee>
         </div>
         <div

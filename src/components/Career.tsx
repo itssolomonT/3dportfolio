@@ -5,7 +5,7 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          My career <span>&</span>
+          My <span>Experience</span>
           <br /> experience
         </h2>
         <div className="career-info">
@@ -21,9 +21,12 @@ const Career = () => {
               <h3>Dec 22 - Feb 26</h3>
             </div>
             <p>
-              • Spearheaded the development and maintenance of scalable web and mobile applications leveraging React, React Native, and Node.js, resulting in enhanced user engagement and robust application performance across multiple platforms.
-• Designed and implemented comprehensive RESTful APIs and backend services that seamlessly integrated with third-party services, authentication systems, and payment gateways, ensuring efficient data flow and extended application capabilities.
-• Led collaboration with UI/UX designers, product managers, and stakeholders to align technical implementation with strategic business goals, conducted thorough code reviews, and applied performance optimizations and best practices that increased application reliability and maintainability
+              Spearheaded the development and maintenance of scalable web and
+              mobile applications using React, React Native, and Node.js.
+              Designed comprehensive RESTful APIs with third-party integrations,
+              auth systems, and payment gateways. Collaborated with designers,
+              product managers, and stakeholders while driving code quality and
+              performance improvements.
             </p>
           </div>
           <div className="career-info-box">
@@ -35,12 +38,14 @@ const Career = () => {
               <h3>Dec 18 - Nov 22</h3>
             </div>
             <p>
-             • Led the development and continuous improvement of scalable React applications, significantly enhancing the user interface and overall user satisfaction by introducing dynamic, responsive components tailored to evolving business requirements.
-• Partnered effectively with UI/UX designers, backend engineers, and product owners in an Agile environment to ensure seamless integration of front-end elements with RESTful APIs and alignment with project deadlines and quality standards.
-• Spearheaded performance tuning initiatives including code splitting, lazy loading, and memoization, which decreased application load times by 25%, improved rendering efficiency, and established a library of reusable components that accelerated development cycles for future projects
+              Led scalable React application development and continuous
+              improvement of responsive UI components. Collaborated in Agile
+              teams across UI/UX, backend, and product functions. Delivered
+              performance tuning through code splitting, lazy loading, and
+              memoization, reducing load times and improving rendering
+              efficiency.
             </p>
           </div>
-          
         </div>
       </div>
     </div>

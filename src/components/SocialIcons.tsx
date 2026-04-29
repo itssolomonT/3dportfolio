@@ -1,8 +1,8 @@
 import {
   FaGithub,
-  FaInstagram,
   FaLinkedinIn,
-  FaYoutube,
+  FaEnvelope,
+  FaPhone,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
@@ -70,23 +70,39 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="https://www.linkedin.com/in/solomotufail/"
+            href="https://www.linkedin.com/in/itssolomontufail/"
             target="_blank"
             rel="noreferrer"
           >
             <FaLinkedinIn />
           </a>
         </span>
-        
-        
+        <span>
+          <a
+            href="mailto:itssolomontufail@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaEnvelope />
+          </a>
+        </span>
+        <span>
+          <a
+            href="tel:+13159470123"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaPhone />
+          </a>
+        </span>
       </div>
       <a
         className="resume-button"
-        href="/Salman_Tufail"
+        href="#contact"
         target="_blank"
         rel="noreferrer"
       >
-        <HoverLinks text="RESUME" />
+        <HoverLinks text="READ MORE" />
         <span>
           <TbNotes />
         </span>

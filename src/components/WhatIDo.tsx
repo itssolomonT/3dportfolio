@@ -87,19 +87,20 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>Web Development</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
+              <h3>UI/UX DESIGN</h3>
+              <h4>Clear, modern, and user-focused digital experiences</h4>
               <p>
-                If you're looking for a developer to lead the research and development of your website, I am a seasoned professional ready to help you bring your vision to life.
+                An effective UI/UX not only captures attention but also ensures
+                clarity. I focus on creating innovative, clean, and functional
+                interfaces that deliver seamless experiences while maintaining
+                strong performance.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Skills</h5>
               <div className="what-content-flex">
-                <div className="what-tags">HTML, CSS</div>
-                <div className="what-tags">Workflow design</div>
-                <div className="what-tags">Bootstrap, Responsivness</div>
-                <div className="what-tags">Tailwind</div>
-                <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
+                <div className="what-tags">React - 93%</div>
+                <div className="what-tags">React Native - 92%</div>
+                <div className="what-tags">Next.js - 75%</div>
+                <div className="what-tags">Node - 80%</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -123,24 +124,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>App Development</h3>
-              <h4>Shipping live in your Production</h4>
+              <h3>WEB &amp; APP DEVELOPMENT</h3>
+              <h4>From blueprint to production delivery</h4>
               <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
+                From understanding your requirements to designing the blueprint
+                and delivering the final product, I handle each step with
+                attention to detail and dedication.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Services</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                 <div className="what-tags">WordPress</div>
-                 <div className="what-tags">Drupal</div>
-                 <div className="what-tags">Wix</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
+                <div className="what-tags">Web Development</div>
+                <div className="what-tags">App Development</div>
+                <div className="what-tags">Responsive Frontend</div>
+                <div className="what-tags">REST API Integration</div>
+                <div className="what-tags">Performance Optimization</div>
+                <div className="what-tags">Product UI Design</div>
               </div>
               <div className="what-arrow"></div>
             </div>
